@@ -31,7 +31,30 @@
   img {
     width: 80%;
   }
-  
+button {
+  background-color: #1a73e8;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #155ab6;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
+  transform: translateY((-3px));
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+
   footer {
     margin-top: 5%;
     color: #EEEEEE;
